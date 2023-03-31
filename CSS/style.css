@@ -1,0 +1,302 @@
+/* Mobile Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  margin: 0;
+  /*padding: 5em 0;*/
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+/* HEADER*/
+#bg-image {
+  background-image: url(../images/home_bg.jpg);
+  background-position: right;
+
+  background-size: cover;
+}
+
+#links-header {
+  display: none;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: black;
+  font-size: 175%;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header {
+  padding-top: 5%;
+}
+
+/* INFO*/
+
+.ht-text {
+  padding: 5%;
+  margin: 10% 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+#joves-info {
+  font-size: 50px;
+  line-height: 50px;
+}
+.class-info {
+  padding: 3% 0;
+}
+.text-info {
+  font-size: 21px;
+  line-height: 40px;
+}
+
+.btn-bar {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.m-btn-theme {
+  color: white;
+  text-decoration: none;
+  height: 300px;
+}
+
+.m-btn-t-theme {
+  color: #2f5d7f;
+  text-decoration: none;
+  height: 300px;
+}
+
+.btn-info {
+  height: 50px;
+}
+
+#button-info {
+  background-color: #2f5d7f;
+  border: none;
+  font-weight: 600;
+}
+
+#button-contacte {
+  background-color: rgba(255, 255, 255, 0.863);
+  border: 2px solid #2f5d7f;
+  font-weight: 600;
+}
+
+/*section 3*/
+
+.cintainer-s3 {
+  flex-direction: column;
+}
+
+#about {
+  padding: 5%;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  margin: 15% 0;
+}
+
+.gray-bg {
+  background-color: #eaedf1;
+}
+.title-one {
+  font-weight: 900;
+  font-size: 50px;
+  padding-top: 10%;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+  width: 75px;
+  margin-left: 0%;
+  background-color: #2f5d7f;
+}
+
+.small {
+  color: gray;
+}
+
+#imag {
+  padding: 5%;
+  width: 90%;
+}
+
+.about-me-img {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+.strong {
+  font-weight: bolder;
+  color: black;
+}
+
+#link-info {
+  text-decoration: none;
+}
+
+.text-bg {
+  font-size: 23px;
+  color: gray;
+  font-weight: 600;
+}
+
+/* Section4 */
+
+.container-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  padding-top: 0%;
+}
+
+#t-s4 {
+  font-size: 45px;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+  width: 75px;
+  margin-left: 0%;
+  background-color: #2f5d7f;
+}
+
+#t-2 {
+  font-size: 21px;
+  padding-bottom: 0%;
+  font-weight: 600;
+}
+
+.img-didactic {
+  border-radius: 10px;
+  height: 100%;
+}
+.product {
+  position: relative;
+  margin: 4% 0;
+}
+
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.sub-1 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  margin: 2%;
+}
+
+.sub-2 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.text-bg-01 {
+  margin-top: -100px;
+}
+/* Section 4 */
+
+.section-title {
+  font-size: 40px;
+}
+.tit-prov {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*fomr*/
+
+.escriu-nos {
+  font-size: 25px;
+margin: 0;
+}
+.form-contact {
+  background-color: white;
+  padding: 5%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+
+.form-control {
+  font-size: 20px;
+  
+}
+input,
+textarea {
+  border: none;
+  border-bottom: grey 1px solid;
+  align-items: center;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.btn-submit {
+  width: 250px;
+  padding: 7%;
+  font-size: 20px;
+  color: white;
+  background-color: #2f5d7f;
+  border-color: #2f5d7f;
+  margin-top: 10%;
+}
+
+/*ultima parte*/
+.contact-info{
+  background-color: white;
+
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 600px) {
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 992px) {
+  #hamburger-menu {
+    display: none;
+  }
+}
