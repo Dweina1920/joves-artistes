@@ -48,6 +48,11 @@ p {
 header {
   padding-top: 5%;
 }
+#hamburger-menu{
+ background-color: #2f5d7f;
+ width: 50px;
+ height: 50px;
+}
 
 /* INFO*/
 
@@ -62,9 +67,12 @@ header {
 #joves-info {
   font-size: 50px;
   line-height: 50px;
+  margin: 0;
+  font-weight: 600;
 }
 .class-info {
   padding: 3% 0;
+  margin: 0;
 }
 .text-info {
   font-size: 21px;
@@ -125,9 +133,14 @@ header {
   background-color: #eaedf1;
 }
 .title-one {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 50px;
   padding-top: 10%;
+}
+#t-3 {
+  font-size: 21px;
+  padding-bottom: 0%;
+  font-weight: 500;
 }
 
 hr {
@@ -156,7 +169,7 @@ hr {
 }
 
 .strong {
-  font-weight: bolder;
+ font-weight: 500;
   color: black;
 }
 
@@ -167,7 +180,7 @@ hr {
 .text-bg {
   font-size: 23px;
   color: gray;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Section4 */
@@ -194,7 +207,7 @@ hr {
 #t-2 {
   font-size: 21px;
   padding-bottom: 0%;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .img-didactic {
@@ -244,7 +257,7 @@ hr {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /*fomr*/
@@ -258,10 +271,13 @@ margin: 0;
   padding: 5%;
   margin-top: 5%;
   border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.074), 0 6px 20px 0 rgba(0, 0, 0, 0.136);
 }
 
 .form-control {
   font-size: 20px;
+  padding: 5% 0;
+ 
   
 }
 input,
@@ -284,9 +300,41 @@ textarea {
 }
 
 /*ultima parte*/
+.last-part{
+  padding-top: 6%;
+}
 .contact-info{
+  margin: 15px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.074), 0 6px 20px 0 rgba(0, 0, 0, 0.136);
+}
+.media-body{
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 15px;
 
+}
+.blck-part-one{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 7px 15px;
+}
+.part-two{
+  font-size: 20px;
+  padding: 7px 15px;
+  color: grey;
+}
+/* Tablet Styles */
+footer{
+  background-color: black;
+  color: grey;
+  font-size: 13px;
+text-align: left;
+}
+.text-footer{
+  padding-left: 4%;
 }
 
 
